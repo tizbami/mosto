@@ -117,10 +117,43 @@ ul li {
 .history-section p {
   text-align: center;
 }
+.featured-section img {
+  width: 250px;
+  height: 250px;
+}
 
 .featured-section {
+  text-align: center;
+  margin-top: 5%;
+  color: #1f2c73;
+  font-size: 20px;
+  background-image: url(assest/first\ fill.png);
 }
-.appLogo {
+.featured-section #first-row,
+#second-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stripe-section {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.careers-section {
+  margin-top: 50px;
+  margin-left: 200px;
+  color: #1f2c73;
+  font-size: 20px;
+}
+.join-section {
+  margin-left: 200px;
+}
+
+font .appLogo {
   display: flex;
   justify-content: center;
 }
